@@ -60,7 +60,11 @@ namespace Xenomorph2._0
         private void listBoxFraction_Click(object sender, EventArgs e)
         {
             Game.getInstance().UpdateActiveFraction();
-            textBoxFractionLore.Text = Game.getInstance().GetLoreFraction(Game.getInstance().GetActiveFractionsIndex()[listBoxFraction.SelectedIndex]);
+            try
+            {
+                textBoxFractionLore.Text = Game.getInstance().GetLoreFraction(Game.getInstance().GetActiveFractionsIndex()[listBoxFraction.SelectedIndex]);
+            }
+            catch { }
         }
 
         private void FormOfLifeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -97,5 +101,14 @@ namespace Xenomorph2._0
             AboutProgram aboutProgram = new AboutProgram();
             aboutProgram.ShowDialog();
         }
+
+        private void биоОружиеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormCreateBioWeapon formCreateBioWeapon = new FormCreateBioWeapon();
+            formCreateBioWeapon.ShowDialog();
+            
+        }
     }
 }
+
+// generic pattern class

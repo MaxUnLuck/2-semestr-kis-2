@@ -1,4 +1,6 @@
-﻿namespace Xenomorph2._0
+﻿using System.Runtime.CompilerServices;
+
+namespace Xenomorph2._0
 {
     partial class FormLore
     {
@@ -105,5 +107,6 @@
         private System.Windows.Forms.ComboBox comboBoxCommander;
         private System.Windows.Forms.TextBox textBoxWarLore;
         private System.Windows.Forms.Label label3;
+        
     }
 }

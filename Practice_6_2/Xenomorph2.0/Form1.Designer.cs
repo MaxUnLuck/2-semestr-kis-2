@@ -46,6 +46,7 @@
             this.LoreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.биоОружиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBoxLIstFraction.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -198,7 +199,8 @@
             // созданиеToolStripMenuItem
             // 
             this.созданиеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.FormOfLifeToolStripMenuItem});
+            this.FormOfLifeToolStripMenuItem,
+            this.биоОружиеToolStripMenuItem});
             this.созданиеToolStripMenuItem.Name = "созданиеToolStripMenuItem";
             this.созданиеToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.созданиеToolStripMenuItem.Text = "Создание";
@@ -206,7 +208,7 @@
             // FormOfLifeToolStripMenuItem
             // 
             this.FormOfLifeToolStripMenuItem.Name = "FormOfLifeToolStripMenuItem";
-            this.FormOfLifeToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.FormOfLifeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.FormOfLifeToolStripMenuItem.Text = "Форма жизни";
             this.FormOfLifeToolStripMenuItem.Click += new System.EventHandler(this.FormOfLifeToolStripMenuItem_Click);
             // 
@@ -235,9 +237,16 @@
             // AboutProgramToolStripMenuItem
             // 
             this.AboutProgramToolStripMenuItem.Name = "AboutProgramToolStripMenuItem";
-            this.AboutProgramToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AboutProgramToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
             this.AboutProgramToolStripMenuItem.Text = "О программе";
             this.AboutProgramToolStripMenuItem.Click += new System.EventHandler(this.AboutProgramToolStripMenuItem_Click);
+            // 
+            // биоОружиеToolStripMenuItem
+            // 
+            this.биоОружиеToolStripMenuItem.Name = "биоОружиеToolStripMenuItem";
+            this.биоОружиеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.биоОружиеToolStripMenuItem.Text = "Био оружие";
+            this.биоОружиеToolStripMenuItem.Click += new System.EventHandler(this.биоОружиеToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -282,6 +291,7 @@
         private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AboutProgramToolStripMenuItem;
         private System.Windows.Forms.Button buttonUpdateList;
+        private System.Windows.Forms.ToolStripMenuItem биоОружиеToolStripMenuItem;
     }
 }
 
